@@ -1,0 +1,49 @@
+name: flat-remix
+version: '20210620'
+base: core18
+license: GPL-3.0
+grade: stable
+confinement: strict
+architectures:
+  - all
+summary: Flat Remix icon theme
+description: |
+  Flat Remix is an icon theme inspired by material design. 
+  Is is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
+slots:
+  icon-themes:
+    interface: content
+    source:
+      read:
+        - $SNAP/share/icons/Flat-Remix-Black-Dark
+        - $SNAP/share/icons/Flat-Remix-Black-Light
+        - $SNAP/share/icons/Flat-Remix-Blue-Dark
+        - $SNAP/share/icons/Flat-Remix-Blue-Light
+        - $SNAP/share/icons/Flat-Remix-Brown-Dark
+        - $SNAP/share/icons/Flat-Remix-Brown-Light
+        - $SNAP/share/icons/Flat-Remix-Cyan-Dark
+        - $SNAP/share/icons/Flat-Remix-Cyan-Light
+        - $SNAP/share/icons/Flat-Remix-Green-Dark
+        - $SNAP/share/icons/Flat-Remix-Green-Light
+        - $SNAP/share/icons/Flat-Remix-Grey-Dark
+        - $SNAP/share/icons/Flat-Remix-Grey-Light
+        - $SNAP/share/icons/Flat-Remix-Magenta-Dark
+        - $SNAP/share/icons/Flat-Remix-Magenta-Light
+        - $SNAP/share/icons/Flat-Remix-Orange-Dark
+        - $SNAP/share/icons/Flat-Remix-Orange-Light
+        - $SNAP/share/icons/Flat-Remix-Red-Dark
+        - $SNAP/share/icons/Flat-Remix-Red-Light
+        - $SNAP/share/icons/Flat-Remix-Teal-Dark
+        - $SNAP/share/icons/Flat-Remix-Teal-Light
+        - $SNAP/share/icons/Flat-Remix-Violet-Dark
+        - $SNAP/share/icons/Flat-Remix-Violet-Light
+        - $SNAP/share/icons/Flat-Remix-Yellow-Dark
+        - $SNAP/share/icons/Flat-Remix-Yellow-Light
+parts:
+  icons:
+    plugin: dump
+    source: https://github.com/daniruiz/flat-remix/archive/refs/tags/20210620.tar.gz
+    organize:
+      Flat-Remix-*: share/icons/
+    stage:
+      - share/icons/
