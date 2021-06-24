@@ -1,4 +1,4 @@
-Snap package of the [Flat Remix icon theme](https://github.com/daniruiz/flat-remix) by [daniruiz](https://github.com/daniruiz).
+Snap package of the [Flat Remix icon theme](https://github.com/daniruiz/flat-remix) by [@daniruiz](https://github.com/daniruiz).
 
 ---
 
