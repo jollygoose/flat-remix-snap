@@ -1,3 +1,5 @@
 *.snap
 *.bak
 *.tar.gz
+shop/
+*.py

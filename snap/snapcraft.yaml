@@ -9,7 +9,7 @@ architectures:
 summary: Flat Remix icon theme
 description: |
   Flat Remix is an icon theme inspired by material design. 
-  Is is mostly flat using a colorful palette with some shadows, highlights, and gradients for some depth.
+  It is mostly flat, using a colorful palette with some shadows, highlights, and gradients for some depth.
 slots:
   icon-themes:
     interface: content

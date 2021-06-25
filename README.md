@@ -2,7 +2,7 @@ Snap package of the [Flat Remix icon theme](https://github.com/daniruiz/flat-rem
 
 ---
 
-## Building snap locally
+## Building the snap locally
 
 Requires
 * snapcraft (```snap install snapcraft```)
@@ -19,7 +19,7 @@ snapcraft
 snap install flat-remix-gtk_CURRENT_all.snap --dangerous
 ```
 
-### Applying the theme
+## Applying the theme
 
 In order to work, the snap package needs to have a '[plug](https://ubuntu.com/blog/a-guide-to-snap-permissions-and-interfaces)' 
 available for either icons.
@@ -30,16 +30,16 @@ To findout which apps are able to use the icons theme, you can run:
 for plug in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do echo ${plug}; done
 ```
 
-To apply to a single application
+To apply the theme to a single application:
 
 ```bash
-sudo snap connect NAME_OF_YOUR_APP:icon-themes flat-remix:icon-themes
+sudo snap connect [snap-you-want-to-theme]:icon-themes flat-remix:icon-themes
 ```
 
-To apply to all snaps (thanks to @flexiondotorg for the handy loop)
+To apply the theme to all snaps (thanks to @flexiondotorg for the handy loop):
 
 ```bash
 for plug in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect ${plug} flat-remix:icon-themes; done
 ```
 
-*NOTE*: Some apps like the Ubuntu Snap Store requiring logging out and back in to load the changes.
+*NOTE*: Some apps (like the Ubuntu Snap Store) may requiring logging out and back in to load the changes.
