@@ -42,7 +42,7 @@ slots:
 parts:
   icons:
     plugin: dump
-    source: https://github.com/daniruiz/flat-remix/archive/refs/tags/20210620.tar.gz
+    source: https://github.com/daniruiz/flat-remix/archive/refs/tags/$SNAPCRAFT_PROJECT_VERSION.tar.gz
     organize:
       Flat-Remix-*: share/icons/
     stage:
