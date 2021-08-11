@@ -1,7 +1,5 @@
 Snap package of the [Flat Remix icon theme](https://github.com/daniruiz/flat-remix) by [@daniruiz](https://github.com/daniruiz).
 
-[![flat-remix](https://snapcraft.io/flat-remix/badge.svg)](https://snapcraft.io/flat-remix)
-
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flat-remix)
 
 ---
@@ -14,8 +12,8 @@ https://github.com/daniruiz/flat-remix
 ## Building the snap locally
 
 Requires
-* snapcraft (```snap install snapcraft```)
-* multipass (```snap install multipass```)
+* [snapcraft](https://snapcraft.io/snapcraft) (```snap install snapcraft```)
+* [multipass](https://snapcraft.io/multipass) (```snap install multipass```)
 
 ```sh
 git clone https://github.com/jollygoose/flat-remix-snap
@@ -23,9 +21,9 @@ cd flat-remix-snap
 
 snapcraft
 
-# where CURRENT is the latest version of flat-remix
-# and --dangerous since this local snap hasn't been verified
-snap install flat-remix_CURRENT_all.snap --dangerous
+# where [current-version] is the latest version/release of in the in snapcraft.yaml file.
+# The --dangerous is used since this snap was built locally and does not originate from the snap store
+snap install flat-remix_[current-version]_all.snap --dangerous
 ```
 
 ## Applying the theme
