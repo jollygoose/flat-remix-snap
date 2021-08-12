@@ -46,6 +46,9 @@ parts:
     build-packages:
       - git
     override-pull: |
+      if [ -d "flat-remix" ]; then
+        rm -rf flat-remix
+      fi
       git clone https://github.com/daniruiz/flat-remix.git
       cd flat-remix
       snapcraftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"
