@@ -1,3 +1,4 @@
+---
 name: flat-remix
 adopt-info: icons
 base: core18
@@ -8,7 +9,7 @@ architectures:
   - all
 summary: Flat Remix icon theme
 description: |
-  Flat Remix is an icon theme inspired by material design. 
+  Flat Remix is an icon theme inspired by material design.
   It is mostly flat, using a colorful palette with some shadows, highlights, and gradients for some depth.
 slots:
   icon-themes:
