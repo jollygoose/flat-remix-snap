@@ -18,28 +18,40 @@ slots:
       read:
         - $SNAP/share/icons/Flat-Remix-Black-Dark
         - $SNAP/share/icons/Flat-Remix-Black-Light
+        - $SNAP/share/icons/Flat-Remix-Black-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Blue-Dark
         - $SNAP/share/icons/Flat-Remix-Blue-Light
+        - $SNAP/share/icons/Flat-Remix-Blue-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Brown-Dark
         - $SNAP/share/icons/Flat-Remix-Brown-Light
+        - $SNAP/share/icons/Flat-Remix-Brown-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Cyan-Dark
         - $SNAP/share/icons/Flat-Remix-Cyan-Light
+        - $SNAP/share/icons/Flat-Remix-Cyan-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Green-Dark
         - $SNAP/share/icons/Flat-Remix-Green-Light
+        - $SNAP/share/icons/Flat-Remix-Green-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Grey-Dark
         - $SNAP/share/icons/Flat-Remix-Grey-Light
+        - $SNAP/share/icons/Flat-Remix-Grey-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Magenta-Dark
         - $SNAP/share/icons/Flat-Remix-Magenta-Light
+        - $SNAP/share/icons/Flat-Remix-Magenta-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Orange-Dark
         - $SNAP/share/icons/Flat-Remix-Orange-Light
+        - $SNAP/share/icons/Flat-Remix-Orange-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Red-Dark
         - $SNAP/share/icons/Flat-Remix-Red-Light
+        - $SNAP/share/icons/Flat-Remix-Red-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Teal-Dark
         - $SNAP/share/icons/Flat-Remix-Teal-Light
+        - $SNAP/share/icons/Flat-Remix-Teal-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Violet-Dark
         - $SNAP/share/icons/Flat-Remix-Violet-Light
+        - $SNAP/share/icons/Flat-Remix-Violet-Light-darkPanel
         - $SNAP/share/icons/Flat-Remix-Yellow-Dark
         - $SNAP/share/icons/Flat-Remix-Yellow-Light
+        - $SNAP/share/icons/Flat-Remix-Yellow-Light-darkPanel
 parts:
   icons:
     plugin: dump
