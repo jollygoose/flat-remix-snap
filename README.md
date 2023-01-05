@@ -1,6 +1,6 @@
 Snap package of the [Flat Remix icon theme](https://github.com/daniruiz/flat-remix) by [@daniruiz](https://github.com/daniruiz).
 
-[![flat-remix](https://snapcraft.io/flat-remix/badge.svg)](https://snapcraft.io/flat-remix)
+[![flat-remix](https://snapcraft.io/flat-remix/badge.svg)](https://snapcraft.io/flat-remix)[![flat-remix-snap workflow](https://github.com/jollygoose/flat-remix-snap/actions/workflows/main.yml/badge.svg)](https://github.com/jollygoose/flat-remix-snap/actions/workflows/main.yml)
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flat-remix)
 
